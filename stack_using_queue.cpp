@@ -2,6 +2,7 @@
 using namespace std;
 
 // implement a stack using queue
+// uses a inverse approach
 
 class myStack{
     queue <int> q;
