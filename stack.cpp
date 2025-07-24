@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-    int n;
-    cin >> n;
-    cout << n;
+    int k;
+    cin >> k;
+    cout << k;
     return 0;
 }
