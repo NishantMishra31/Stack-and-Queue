@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 // implement a queue using stack(s)
-// this is the optiimal approach
+// this is the optimal approach
 
 class myQueue{
     stack <int> stk1, stk2;
