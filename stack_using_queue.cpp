@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// implement a stack using queue
+
 class myStack{
     queue <int> q;
     public:
