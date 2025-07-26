@@ -34,9 +34,9 @@ int main(){
     // call for testing
     MinStack stk;
     for(int i = 0; i < n; i++) stk.push(arr[i]);
-    cout << stk.getMin();
+    cout << stk.getMin() << " ";
     stk.pop();
     stk.pop();
-    cout << stk.getMin();
+    cout << stk.getMin() << " ";
     return 0;
 }
