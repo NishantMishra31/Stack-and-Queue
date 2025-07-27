@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// classic valid parenthesis question
+
 bool isValid(string s){
     int n = s.size();
     stack <char> stk;
