@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// get the minimum element in the stack in O(1) time
+
 class MinStack{
     
     stack <pair<int, int>> stk;
