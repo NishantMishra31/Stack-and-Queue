@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this a classic leetcode hard problem
+// this approach takes TC O(3n) and SC O(2n)
+// this extra space can be optimized using monotonic stack application
+
 vector <int> prefixMax(vector<int> &height){
     int n =  height.size();
     vector <int> prefix(n);
