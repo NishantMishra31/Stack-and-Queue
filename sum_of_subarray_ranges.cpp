@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this is the naive approach to solve the problem
+
 long long subArrayRanges(vector <int> &arr){
     int n = arr.size();
     long long sum = 0;
