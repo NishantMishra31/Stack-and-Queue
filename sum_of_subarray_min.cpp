@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this is the brute force approach and takes O(n^2) TC
 
 int sumSubarrayMins(vector <int> &arr){
     int n = arr.size();
