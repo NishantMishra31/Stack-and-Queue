@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// classic valid parenthesis question
+// classic valid parenthesis problem
 
 bool isValid(string s){
     int n = s.size();
