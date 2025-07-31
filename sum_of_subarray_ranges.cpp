@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// this is the naive approach to solve the problem
+// this is the naive approach to solve the subarray ranges problem
 
 long long subArrayRanges(vector <int> &arr){
     int n = arr.size();
