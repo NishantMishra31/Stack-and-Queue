@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this approach uses a hashmap to solve the nge problem 
+
 vector <int> nextGreaterElement(vector<int>& arr1, vector<int>& arr2) {
     unordered_map<int, int> nge;
     stack<int> stk;
