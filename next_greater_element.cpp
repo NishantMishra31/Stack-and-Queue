@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// get the next gretarer element from an individual element in an array
+
 vector<int> nextGreaterElement(vector<int>& arr){
     int n = arr.size();
     vector<int> nge(n);
